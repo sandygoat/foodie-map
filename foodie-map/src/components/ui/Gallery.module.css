@@ -1,0 +1,35 @@
+.gallery {
+  background: none;
+  width: 900px;
+  height: 800px;
+  justify-content: center;
+  position: fixed;
+  top: 5rem;
+  left: 25rem;
+  z-index: 1;
+  padding: 50px;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 30%;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  transition: 1s;
+  padding: 10px;
+  justify-content: center;
+}
+
+.card:hover {
+  width: 360px;
+  height: 360px;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 30%;
+  justify-content: center;
+  z-index: 1;
+  transition: 1s;
+}

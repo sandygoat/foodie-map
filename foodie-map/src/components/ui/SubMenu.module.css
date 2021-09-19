@@ -1,0 +1,47 @@
+.SidebarLink {
+  display: flex;
+  color: #e1e9fc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+  height: 60px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.SidebarLink:hover {
+  background: #252831;
+  border-left: 4px solid white;
+  cursor: pointer;
+}
+
+.SidebarLabel {
+  margin-left: 20px;
+  font-size: 18px;
+}
+.subSidebarLabel {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.DropdownLink {
+  background: #414757;
+  height: 40px;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+}
+
+.DropdownLink:hover {
+  background: #632ce4;
+  cursor: pointer;
+}
+
+.rowC {
+  display: flex;
+  flex-direction: row;
+}
